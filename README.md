@@ -1,5 +1,7 @@
 # AI Gherkin API Test
 
+[![CI](https://github.com/aritrasur47/ai-gherkin-apitest/actions/workflows/ci.yml/badge.svg)](https://github.com/aritrasur47/ai-gherkin-apitest/actions/workflows/ci.yml)
+
 Cucumber + TestNG API test suite for the Place APIs (add/delete place)
 against the public `rahulshettyacademy` practice API, using REST Assured
 for HTTP calls and Allure for reporting.
