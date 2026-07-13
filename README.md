@@ -51,8 +51,9 @@ This runs:
   ```
 
 - **CI Allure report**: on every push to `main`, the `Allure Report`
-  workflow uploads the rendered HTML report as a build artifact —
-  download it from the run's Actions summary page.
+  workflow uploads the rendered HTML report as a build artifact and
+  deploys it to GitHub Pages:
+  https://aritrasur47.github.io/ai-gherkin-apitest/
 
 ## Configuration
 
