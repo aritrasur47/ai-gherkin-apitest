@@ -50,6 +50,10 @@ This runs:
   mvn allure:serve
   ```
 
+- **CI Allure report**: on every push to `main`, the `Allure Report`
+  workflow uploads the rendered HTML report as a build artifact —
+  download it from the run's Actions summary page.
+
 ## Configuration
 
 API base URL, key, and endpoints are in
