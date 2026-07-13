@@ -63,3 +63,8 @@ at runtime via a system property, e.g.:
 ```bash
 mvn test -DbaseURI=https://example.com
 ```
+
+## Contributing
+
+`main` is protected: changes go through a pull request that must pass
+the `test` CI check before merging.
