@@ -9,9 +9,6 @@ Feature: Validating Place API's
 
     Examples:
       | name              | address                     |
-      | Frontline house   | 29, side layout, cohen 09   |
-      | Cafe Coffee Day   | 12, MG Road, Bangalore      |
-      | Book Store        | 45, Park Street, Kolkata    |
 
   Scenario: Verify if place is being successfully deleted using DeletePlaceAPI
     Given Add place payload
