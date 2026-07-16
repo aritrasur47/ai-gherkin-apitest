@@ -19,14 +19,9 @@ public class StepDefinition {
 	private Response response;
 	private String placeId;
 
-	@Given("Add place payload")
-	public void add_place_payload() {
-		addPlace = TestDataBuild.buildAddPlace();
-	}
-
 	@Given("Add place payload with name {string} and address {string}")
 	public void add_place_payload_with_name_and_address(String name, String address) {
-		add_place_payload();
+		addPlace = TestDataBuild.buildAddPlace();
 		addPlace.setName(name);
 		addPlace.setAddress(address);
 	}
