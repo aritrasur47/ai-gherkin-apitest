@@ -34,6 +34,10 @@ public class Utils {
 	}
 
 	private void logBanner(String title) {
+		logBannerStatic(title);
+	}
+
+	public static void logBannerStatic(String title) {
 		LOG_FILE.println();
 		LOG_FILE.println("================================================================================");
 		LOG_FILE.println(title + " | " + LocalDateTime.now());
